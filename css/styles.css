@@ -321,7 +321,6 @@ body {
   text-transform: uppercase;
   color: var(--IRIS);
   text-decoration: none;
-  display: flex;
   width: 71px;
   height: 21px;
   flex-direction: column;
