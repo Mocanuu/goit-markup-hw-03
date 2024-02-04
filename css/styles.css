@@ -136,6 +136,7 @@ body {
   background-color: var(--NAVY-BLUE);
   width: 1440px;
   height: 600px;
+  padding: 188px 0;
   flex-shrink: 0;
 }
 
@@ -146,7 +147,7 @@ body {
   font-weight: 700;
   line-height: 107.143%;
   letter-spacing: 1.12px;
-  width: 496px;
+  max-width: 496px;
   padding: 188px 472px 48px 472px;
 }
 
@@ -156,10 +157,13 @@ body {
   color: var(--WHITE);
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  height: 56px;
+  min-width: 169px;
   letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: none;
   cursor: pointer;
-  display: inline-flex;
+  display: inline-block block;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
