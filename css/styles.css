@@ -229,7 +229,7 @@ body {
   width: 1128px;
   height: 412px;
   flex-shrink: 0;
-  padding: 120px 156px 0px 156px;
+  padding-bottom: 120px;
 }
 
 .activity-section {
@@ -239,7 +239,12 @@ body {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
   text-align: center;
+}
+
+.image-list-item {
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .people {
@@ -356,7 +361,7 @@ body {
   list-style: none;
   text-decoration: none;
   display: flex;
-  gap: 24px 24px;
+  gap: 24px;
 }
 
 .images {
