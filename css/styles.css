@@ -159,13 +159,13 @@ body {
   height: 56px;
   min-width: 169px;
   border-radius: 4px;
+  display: block;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
-}
-
-.div-service-button {
   text-align: center;
+  cursor: pointer;
+  border: none;
   gap: 1px;
 }
 
