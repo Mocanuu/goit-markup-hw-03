@@ -82,8 +82,9 @@ img {
   padding: 24px 0;
 }
 
-.link {
+.link-href-apps {
   text-decoration: none;
+  width: calc((100% - 48px) / 3);
 }
 
 .list-link {
@@ -391,9 +392,16 @@ img {
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
+  gap: 24px;
 }
 
+.images-list-app {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
 .images {
   display: block;
 }
