@@ -191,7 +191,7 @@ img {
 }
 
 .words-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .four-list {
@@ -267,7 +267,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .people-name-job {
@@ -444,5 +444,5 @@ img {
 }
 
 .app-link {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
