@@ -258,8 +258,13 @@ img {
 
 .people {
   background-color: var(--WHITE);
-  width: calc((100% - 3 * 24px) / 4);
+  width: 264px;
   border-radius: 0px 0px 4px 4px;
+  display: inline-flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .people-name-job {
@@ -267,11 +272,10 @@ img {
 }
 
 .team-section-list {
-  background-color: var(--CLOUD);
   background: var(--CLOUD);
   list-style: none;
   text-align: center;
-  padding: 120px 0;
+  padding: 120px 156px;
   width: 1440px;
   height: 732px;
   flex-shrink: 0;
@@ -280,16 +284,19 @@ img {
 .team-list {
   background-color: var(--CLOUD);
   gap: 24px;
+  display: flex;
+  flex-direction: row;
 }
 
 .team-title {
   color: var(--NAVY-BLUE);
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 700px;
   margin-bottom: 72px;
-  line-height: 111.111%;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team-members {
@@ -396,11 +403,11 @@ img {
 }
 
 .images-list-app {
-  list-style: none;
-  text-decoration: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   column-gap: 24px;
+  row-gap: 48px;
 }
 .images {
   display: block;
@@ -433,5 +440,5 @@ img {
 }
 
 .app-link {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
